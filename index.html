@@ -7,7 +7,7 @@
    <!--- basic page needs
    ================================================== -->
    <meta charset="utf-8">
-	<title>My Portfolio</title>
+	<title>Alejandro Solis</title>
 	<meta name="description" content="">  
 	<meta name="author" content="">
 
@@ -90,7 +90,6 @@
    	<ul class="intro-social">        
          <li><a href="https://www.linkedin.com/in/alejandrosolisflores/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
          <li><a href="https://github.com/alejandrosolf" target="_blank"><i class="fa fa-github" target="_blank"></i></a></li>
-         <li><a href="https://twitter.com/alejandrosf_" target="_blank"><i class="fa fa-twitter"></i></a></li>
          <li><a href="https://www.facebook.com/alexsolis.flores/" target="_blank"><i class="fa fa-facebook"></i></a></li>
          <li><a href="https://www.instagram.com/alejandrosf._/" target="_blank"><i class="fa fa-instagram"></i></a></li>
       </ul> <!-- /intro-social -->      	
@@ -123,7 +122,7 @@
    		<div class="col-six tab-full">
 
    			<h3>Profile</h3>
-   			<p>I am a Mechatronics Engineering student at the Universidad Autonoma de Guadalajara, currently in my 11th quarter, and Im currently working as a Automation Intern and self-learning about scripting and automation with Python and cloud.</p>
+   			<p>I am a Mechatronics Engineering student at the Universidad Autonoma de Guadalajara, currently in my last therm. I'm currently working as a Automation Intern and self-learning about scripting and automation with Python and cloud fundamentals (AWS).</p>
 
    			<ul class="info-list">
    				<li>
@@ -167,7 +166,7 @@
 				   </li>
 				   <li>
 				   	<!-- <div class="progress percent95"><span>95%</span></div> -->
-				   	<strong>C</strong>
+				   	<strong>AWS</strong>
 				   </li>
 				   <li>
 				   	<!-- <div class="progress percent75"><span>75%</span></div> -->
@@ -242,7 +241,7 @@
 
 	   				<div class="timeline-content">
 	   					<h4>FONCS</h4>
-	   					<p>Proficient in Python for designing and implementing automation solutions. Proven track record of optimizing operational processes through automation projects.Proficient in coding with Google Apps Script for seamless integration across Google Workspace.</p>
+	   					<p>Proficient in Python for designing and implementing automation solutions. Proven track record of optimizing operational processes through automation projects. Proficient in coding with Google Apps Script for seamless integration across Google Workspace.</p>
 	   				</div>
 
 	   			</div> <!-- /timeline-block -->
@@ -255,7 +254,7 @@
 
 	   				<div class="timeline-header">
 	   					<h3>Sales Executive</h3>
-	   					<p>Sep 2023 - Jan 2023</p>
+	   					<p>Sep 2023 - Jan 2024</p>
 	   				</div>
 
 	   				<div class="timeline-content">
@@ -383,23 +382,34 @@
    		<div class="col-twelve">
 
    			<!-- portfolio-wrapper -->
-	         <div id="folio-wrapper" class="block-1-2 block-mob-full stack">
-
-	         	<div class="bgrid folio-item">
-	               <div class="item-wrap">
-	               	<img src="images/py.jpg" alt="Python">
-	                  <a href="#modal-01" class="overlay">	                  	           
-	                     <div class="folio-item-table">
-	                     	<div class="folio-item-cell">
-		     					       <h3 class="folio-title">Client Manager</h3>	     					    
-		     					    	 <span class="folio-types">
-		     					       	  Application Development
-		     					       </span>
-		     					   </div>	                      	
-	                     </div>                    
-	                  </a>
-	               </div>	               
-	        		</div>  <!-- /modal-06 -->
+			   <div id="project">
+				<img id="project-image" src="images/py.jpg" alt="Project Image">
+				<h3 id="Client Manager">Client Manager</h3>
+			</div>
+			
+			<script>
+				document.getElementById("project").addEventListener("click", function() {
+					window.open("https://github.com/alejandrosolf/client_manager", "_blank");
+				});
+			</script> 
+			<style>
+				#project {
+					text-align: center; /* Center align the content */
+					margin-top: 50px; /* Add margin from the top */
+					cursor: pointer; /* Change cursor to pointer on hover */
+					transition: transform 0.3s ease; /* Add animation transition */
+				}
+		
+				#project:hover {
+					transform: scale(1.1); /* Scale up the content on hover */
+				}
+		
+				#project-image {
+					width: 500px; /* Set the width of the image */
+					height: auto; /* Maintain aspect ratio */
+				}
+			</style>
+			<!-- /modal-06 -->
 				   <!-- modal popups - end
 	            ============================================================= -->
 
@@ -536,17 +546,15 @@
      			<ul class="footer-social">        
 			 <li><a href="https://www.linkedin.com/in/alejandrosolisflores/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
 			 <li><a href="https://github.com/alejandrosolf" target="_blank"><i class="fa fa-github" target="_blank"></i></a></li>
-			 <li><a href="https://twitter.com/alejandrosf_" target="_blank"><i class="fa fa-twitter"></i></a></li>
 			 <li><a href="https://www.facebook.com/alexsolis.flores/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-			 <li><a href="https://www.instagram.com/alejandrosf_/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+			 <li><a href="https://www.instagram.com/alejandrosf._/" target="_blank"><i class="fa fa-instagram"></i></a></li>
 			</ul> 
 	      		
 	      </div>
 
       	<div class="col-six tab-full">
 	      	<div class="copyright">
-		        	<span>© Copyright ASF 2023.</span> 
-		        	<span>Design by <a href="http://www.styleshout.com/">Me</a></span>	         	
+		        	<span>© Copyright ASF 2024.</span>          	
 		         </div>		                  
 	      	</div>
 
